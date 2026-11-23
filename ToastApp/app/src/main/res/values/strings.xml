@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToastApp</string>
+    <string name="txt_tv1">¿Cual es el numero que vio?</string>
+    <string name="btn_validar">VALIDAR Y COMPROBAR</string>
+</resources>

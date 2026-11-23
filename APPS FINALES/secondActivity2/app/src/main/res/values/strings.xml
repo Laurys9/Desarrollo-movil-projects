@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">secondActivity2</string>
+    <string name="btn_AcercaDe">PRESIONA AQUI</string>
+    <string name="txt_username">Estudiante: Laurys N. Taveras Jimenez</string>
+    <string name="txt_materia">Asignatura: PROG. DISPOSITIVOS MOVILES</string>
+    <string name="btn_Salir">SALIR</string>
+</resources>

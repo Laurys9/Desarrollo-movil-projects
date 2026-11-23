@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">otrosActivity</string>
+    <string name="txt_userpass">Ingrese clave de usuario</string>
+    <string name="btn_comprobacion">Comprobar</string>
+    <string name="txt_userwelcome">Bienvenida, Laurys Taveras Jimenez!!</string>
+    <string name="btn_salir">Volver</string>
+</resources>

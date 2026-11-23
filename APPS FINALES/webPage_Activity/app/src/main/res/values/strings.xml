@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">webPage_Activity</string>
+    <string name="txt_enlace">Ingrese un sitio Web</string>
+    <string name="btn_view">Visitar</string>
+    <string name="btn_finalizar">Salir</string>
+
+</resources>

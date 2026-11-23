@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MediaPlayer</string>
+    <string name="btn_iniciar">Iniciar reproduccion</string>
+    <string name="btn_pausar">Pausar reproduccion</string>
+    <string name="btn_reanudar">Reanudar</string>
+    <string name="btn_avanzar5">Reproducir cada 5 segundos</string>
+    <string name="btn_switch">Reproducir en forma circular?</string>
+    <string name="txt_reprodutor">Reproductor de Audio MP3</string>
+
+
+
+</resources>

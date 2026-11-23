@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/marine_blue"
+    tools:context=".CalculateFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="361dp"
+        android:layout_height="562dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_numero1"
+            android:textColor="#E9E976"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/num1Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFCFC"
+            android:ems="10"
+            android:foregroundTint="@color/white"
+            android:inputType="number"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/txt_numero2"
+            android:textColor="#E9E976"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/num2Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFCFC"
+            android:ems="10"
+            android:foregroundTint="@color/white"
+            android:inputType="number"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/txt_resultado"
+            android:textColor="#E9E976"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSumar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E7B388FF"
+            android:text="@string/btn_sumar"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnRestar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8BB388FF"
+            android:text="@string/btn_resta"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnMultiplicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5EFF80AB"
+            android:text="@string/btn_multiplicacion"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3DB9F6CA"
+            android:text="@string/btn_division"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#80203B"
+            android:text="@string/btn_salir"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#524A5BA8"
+        android:paddingTop="15dp"
+        android:text="@string/txt_calculadora"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</FrameLayout>

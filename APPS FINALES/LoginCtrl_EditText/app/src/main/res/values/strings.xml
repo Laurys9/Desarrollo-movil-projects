@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LoginCtrl_EditText</string>
+    <string name="txt_username">Ingresar nombre de usuario</string>
+    <string name="txt_password">Ingresar contraseña</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="txt_login">Registro de Inicio de Sesión</string>
+</resources>

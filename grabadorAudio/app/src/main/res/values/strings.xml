@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">grabadorAudio</string>
+    <string name="txt_titleAudio">Grabador y Reproductor de Audio</string>
+    <string name="btn_grabar">Grabar Audio</string>
+    <string name="btn_reproducir">Reproducir Audio</string>
+    <string name="btn_detener">Detener Audio</string>
+</resources>

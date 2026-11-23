@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImageBtnApp</string>
+    <string name="call_button_description">Botón de llamada</string>
+</resources>

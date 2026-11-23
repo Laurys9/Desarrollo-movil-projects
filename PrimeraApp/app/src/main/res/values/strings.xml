@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrimeraApp</string>
+    <string name="hello_world">Hola Mundo mi nombre es Laura y mi matricula 2203607</string>
+    <string name="btn_open">Abrir vista </string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".UserWelcomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Imagen de Bienvenida -->
+        <ImageView
+            android:id="@+id/welcome_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/welcome_image"
+            android:layout_gravity="center"
+            android:contentDescription="Imagen de Bienvenida"
+            android:paddingBottom="16dp" />
+
+        <!-- Título Principal -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenidos a Nuestra Aplicación"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingBottom="16dp" />
+
+        <!-- Descripción de la Aplicación -->
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esta aplicación ha sido desarrollada como un proyecto educativo para demostrar diferentes funcionalidades en Android Studio."
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Nombres y Matrículas de los Desarrolladores -->
+        <TextView
+            android:id="@+id/developers_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desarrolladores"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/developers_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elohin José González\n2-18-5141\n\nAna Elisa Vizcaíno Buret\n1-18-3898\n\nLaurys Nicole Taveras Jiménez\n1-20-3605\n\nMadelson Acosta\n2-19-4057"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:gravity="center" />
+
+        <!-- Título de las Aplicaciones -->
+        <TextView
+            android:id="@+id/applications_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplicaciones Incluidas"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingTop="24dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Contenedor para las Aplicaciones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/applications_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Calculadora con funciones básicas\n2. Controles de entrada y CheckBox\n3. Navegación a páginas web"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <!-- Espaciador para Asegurar Visibilidad -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+
+    </LinearLayout>
+</ScrollView>

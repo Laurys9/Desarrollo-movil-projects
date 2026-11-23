@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ciclo de Vida Android</string>
+    <string name="txt_title">Ciclo de vida de una Activity en Android Studio</string>
+    <string name="btn_text">Click</string>
+    <string name="txt_nameStudent">Hola me llamo Ana Vizcaino y mi matricula es 1-30-5075. Esta clase se llama PROG. DISPOSITIVOS MOVILES.</string>
+    <string name="btn_click">Click Aquí</string>
+</resources>
